@@ -18,7 +18,7 @@ This project implements a simple chat application using Java Swing for the graph
 ## Prerequisites
 
 - Java Development Kit (JDK) installed
-- IDE (e.g., IntelliJ IDEA, Eclipse) for Java development
+- IDE (e.g.,VS-Code, IntelliJ IDE) for Java development
 - Basic understanding of Java, Swing, and networking concepts
 
 ## Setup
