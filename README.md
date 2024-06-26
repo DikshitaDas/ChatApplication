@@ -26,7 +26,7 @@ This project implements a simple chat application using Java Swing for the graph
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/javachat.git
+   git clone https://github.com/DikshitaDas/javachat.git
    cd javachat
    ```
 
