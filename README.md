@@ -12,10 +12,13 @@ This **Chat Application** enables real-time communication between multiple users
 
 ## 🚀 Features
 
-- 💻 **Real-time messaging**: Users can send and receive messages instantly.
-- 🎨 **Graphical User Interface (GUI)**: Easy-to-use chat interface built with **Java Swing**.
-- 🔗 **Socket.IO integration**: For handling real-time communication between clients and server.
-- 👥 **Multiple users**: Supports communication between multiple users connected to the server.
+💻 **Real-time messaging**: Users can send and receive messages instantly.
+
+🎨 **Graphical User Interface (GUI)**: Easy-to-use chat interface built with **Java Swing**.
+
+🔗 **Socket.IO integration**: For handling real-time communication between clients and server.
+
+👥 **Multiple users**: Supports communication between multiple users connected to the server.
 
 ## 📦 Installation
 
