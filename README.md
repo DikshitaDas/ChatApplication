@@ -1,63 +1,60 @@
-# Java Chat Application
+# 💬 Chat Application
 
-This project implements a simple chat application using Java Swing for the graphical user interface and sockets for networking communication between a server and multiple clients.
+A real-time **Chat Application** built using **Java Swing** and **Socket.IO**, enabling users to send and receive messages over a local network with a simple and intuitive interface.
 
-## Features
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?&style=flat&logo=java&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-Framework-orange?style=flat)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-Black?style=flat&logo=socket.io)
 
-- **Server Application:**
-  - Accepts multiple client connections simultaneously.
-  - Sends and receives messages between connected clients.
-  - Displays messages in a graphical user interface using Java Swing.
+## ℹ️ About
 
-- **Client Application:**
-  - Connects to the server.
-  - Sends messages to the server.
-  - Receives messages from other connected clients via the server.
-  - Displays received messages in a graphical user interface using Java Swing.
+This **Chat Application** enables real-time communication between multiple users over a network. Built using **Java** and **Socket.IO**, the application supports a graphical interface for seamless chatting.
 
-## Prerequisites
+## 🚀 Features
 
-- Java Development Kit (JDK) installed
-- IDE (e.g.,VS-Code, IntelliJ IDE) for Java development
-- Basic understanding of Java, Swing, and networking concepts
+- 💻 **Real-time messaging**: Users can send and receive messages instantly.
+- 🎨 **Graphical User Interface (GUI)**: Easy-to-use chat interface built with **Java Swing**.
+- 🔗 **Socket.IO integration**: For handling real-time communication between clients and server.
+- 👥 **Multiple users**: Supports communication between multiple users connected to the server.
 
-## Setup
+## 📦 Installation
 
-1. **Clone the repository:**
+### 1. Clone the Repository
+```bash
+git clone https://github.com/DikshitaDas/ChatApplication.git
+cd ChatApplication
+```
 
-   ```bash
-   git clone https://github.com/DikshitaDas/javachat.git
-   cd javachat
-   ```
+### 2. Compile and Run the Application
+#### To start the server:
+```bash
+javac ChatServer.java
+java ChatServer
+```
+#### To start the client:
+```bash
+javac ChatClient.java
+java ChatClient
+```
 
-2. **Compile and run:**
+## 🛠 Technologies Used
 
-   - **Server:**
-     ```bash
-     javac Server.java
-     java Server
-     ```
+| Technology    | Logo |
+|---------------|------|
+| **Java**      | ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?&style=flat&logo=java&logoColor=white) |
+| **Swing**     | ![Swing](https://img.shields.io/badge/Swing-Framework-orange?style=flat) |
+| **Socket.IO** | ![Socket.IO](https://img.shields.io/badge/Socket.IO-Black?style=flat&logo=socket.io) |
 
-   - **Client:**
-     ```bash
-     javac Client.java
-     java Client
-     ```
+## 🤝 Contributing
 
-3. **Usage:**
+Contributions are welcome! Here's how you can contribute:
 
-   - Run the server application first.
-   - Then, run one or more client applications to connect to the server.
-   - Start chatting!
+1. Fork the repository 🍴
+2. Create a new branch (`git checkout -b feature/amazing-feature`) 🚧
+3. Commit your changes (`git commit -m 'Add a new feature'`) 📝
+4. Push to the branch (`git push origin feature/amazing-feature`) 📤
+5. Open a pull request 📬
 
-## Contributing
+## 📄 License
 
-Contributions are welcome! Feel free to fork the repository, create pull requests, or open issues for any bugs or feature requests.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
----
-
-Feel free to customize the sections and add more details specific to your project. Screenshots can provide visual context, and additional sections like "Troubleshooting", "Known Issues", or "Future Enhancements" can be useful depending on the scope and development stage of your application.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details. 📃
