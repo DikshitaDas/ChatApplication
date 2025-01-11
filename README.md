@@ -1,4 +1,4 @@
-# 💬 Chat Application
+# 💬 Chat Application 
 
 A real-time **Chat Application** built using **Java Swing** and **Socket.IO**, enabling users to send and receive messages over a local network with a simple and intuitive interface.
 
